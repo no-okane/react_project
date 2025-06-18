@@ -20,7 +20,7 @@
 - 매 요청마다 html을 생성하여 서버 부하 발생 가능성 높음
 - 대표적 ssr 프로그래밍 언어 : next.js
 ### CSR (client-side rendering)
-- 브라우저가 초ㅟ초 로드 시 빈 html, js 파일을 불러와 화면을 렌더링하는 방식
+- 브라우저가 최초 로드 시 빈 html, js 파일을 불러와 화면을 렌더링하는 방식
 - 빠른 페이지 이동, 서버 부하 적음, 비동기 데이터 요청 사용
 - 대표적인 csr 프로그래밍 언어 : react, vue
 ### SPA (single page application)
@@ -28,3 +28,11 @@
 - 전체 페이지를 새로고침하지 않고 클라이언트에게 필요한 화면만 변경
 - 빠른 페이지 전환, 부드러운 사용자 경험, 모바일 앱과 유사한 uiux기능
 - 대표적인 spa 프로그래밍 언어 : react, vue, angular
+-----
+### react 개발환경설정 vite+react
+```
+npm create vite@latest 생성프로젝트명 -- --template react
+cd 이동프로젝트명
+npm install
+npm run dev
+```
